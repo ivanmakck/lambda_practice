@@ -1,0 +1,11 @@
+[db]
+host="lambda-lab2.c1vv2fqdw2ry.us-east-1.rds.amazonaws.com"
+port=3306
+dbname="superstore"
+
+[aws]
+bucket="s3://de-lab2"
+folder="input"
+
+[run]
+pyscript="run.py"
